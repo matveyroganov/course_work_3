@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kursach-3"
+version = "0.1.0"
+description = ""
+authors = ["Matvey Roganov  <roganov94@mail.ru>"]
+readme = "README.md"
+packages = [{include = "kursach_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
